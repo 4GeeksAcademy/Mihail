@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Official artist page for Mihail featuring bio, career highlights, and upcoming shows.">
+    <title>Mihail | Artist Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "MusicGroup",
+            "name": "Mihail",
+            "description": "Independent artist blending electronic textures with live instrumentation.",
+            "genre": ["Electronic", "Alternative", "Live Performance"],
+            "url": "https://example.com/mihail",
+            "sameAs": [
+                "https://www.instagram.com/",
+                "https://open.spotify.com/"
+            ],
+            "event": [
+                {
+                    "@type": "MusicEvent",
+                    "name": "Midnight Harbour Live",
+                    "startDate": "2026-08-12T20:30:00+02:00",
+                    "location": {
+                        "@type": "Place",
+                        "name": "Skyline Hall",
+                        "address": "Barcelona, Spain"
+                    }
+                },
+                {
+                    "@type": "MusicEvent",
+                    "name": "Signal Lights Session",
+                    "startDate": "2026-10-03T19:00:00+02:00",
+                    "location": {
+                        "@type": "Place",
+                        "name": "Nova Stage",
+                        "address": "Berlin, Germany"
+                    }
+                }
+            ]
+        }
+    </script>
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header" aria-label="Main site header">
+        <div class="wrap nav-wrap">
+            <p class="brand" aria-label="Artist name">Mihail</p>
+            <nav aria-label="Primary navigation">
+                <ul class="nav-list">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#career">Career</a></li>
+                    <li><a href="#shows">Upcoming Shows</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <section id="hero" class="hero" aria-labelledby="hero-title">
+            <div class="wrap hero-layout">
+                <div class="hero-copy">
+                    <p class="eyebrow">Live Artist Experience</p>
+                    <h1 id="hero-title">Sound That Feels Like Night Air and Neon Lights</h1>
+                    <p class="lead">Mihail crafts emotionally driven electronic sets, moving from intimate vocal passages into high-energy cinematic drops.</p>
+                    <a class="cta" href="#shows" aria-label="Jump to upcoming live shows">See Upcoming Shows</a>
+                </div>
+                <figure class="hero-media">
+                    <img src="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=900&q=75" alt="Mihail performing on stage in front of concert lights" loading="lazy" width="900" height="600">
+                    <figcaption>Latest tour concept: Echoes of Transit</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <section id="about" class="content-section" aria-labelledby="about-title">
+            <div class="wrap">
+                <h2 id="about-title">About</h2>
+                <p>Mihail is a producer, vocalist, and performer known for combining analog synth textures with modern club rhythms. The live set is built to feel cinematic, shifting between introspective storytelling and dance-floor momentum.</p>
+                <div class="stat-row" aria-label="Artist key facts">
+                    <article class="stat-card">
+                        <h3>8+</h3>
+                        <p>Years performing live</p>
+                    </article>
+                    <article class="stat-card">
+                        <h3>40+</h3>
+                        <p>Shows across Europe</p>
+                    </article>
+                    <article class="stat-card">
+                        <h3>1.2M</h3>
+                        <p>Total streams</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="career" class="content-section" aria-labelledby="career-title">
+            <div class="wrap">
+                <h2 id="career-title">Career Highlights</h2>
+                <div class="career-list" role="list" aria-label="Major milestones in artist career">
+                    <article class="career-item" role="listitem">
+                        <h3>2021 | First Studio EP</h3>
+                        <p>Released debut EP "Afterglow District," opening with atmospheric synth lines and minimalist percussion.</p>
+                    </article>
+                    <article class="career-item" role="listitem">
+                        <h3>2023 | Festival Debut</h3>
+                        <p>Performed at Summer Current Festival and introduced an expanded audiovisual live set.</p>
+                    </article>
+                    <article class="career-item" role="listitem">
+                        <h3>2025 | International Collaboration</h3>
+                        <p>Produced cross-border single "Night Engine" with guest vocalists from Spain and Germany.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="shows" class="content-section" aria-labelledby="shows-title">
+            <div class="wrap">
+                <h2 id="shows-title">Upcoming Shows</h2>
+                <ul class="show-list" aria-label="List of upcoming live shows">
+                    <li class="show-card">
+                        <p class="show-date">Aug 12, 2026</p>
+                        <h3>Midnight Harbour Live</h3>
+                        <p>Skyline Hall, Barcelona</p>
+                    </li>
+                    <li class="show-card">
+                        <p class="show-date">Sep 05, 2026</p>
+                        <h3>City Pulse Sessions</h3>
+                        <p>Atlas Yard, Lisbon</p>
+                    </li>
+                    <li class="show-card">
+                        <p class="show-date">Oct 03, 2026</p>
+                        <h3>Signal Lights Session</h3>
+                        <p>Nova Stage, Berlin</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer" aria-label="Site footer">
+        <div class="wrap footer-layout">
+            <p>&copy; 2026 Mihail. All rights reserved.</p>
+            <a href="#hero" aria-label="Back to top of page">Back to top</a>
+        </div>
+    </footer>
+</body>
+</html>
